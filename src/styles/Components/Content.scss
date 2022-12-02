@@ -1,0 +1,16 @@
+.general_container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    .container {
+        display: grid;
+        gap: 60px;
+        grid-template-columns: repeat(4, 1fr);
+        .card {
+            width: 100%;
+            img {
+                width: 350px;
+            }
+        }
+    }
+}
